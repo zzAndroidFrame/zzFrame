@@ -31,7 +31,7 @@ import android.view.inputmethod.InputMethodManager;
  * 3.集成了log_v(msg)等打印方法以及println(Object)。
  * </p>
  */
-public abstract class XtomActivity extends Activity {
+public abstract class XtomActivity extends Activity {//
 	protected static final String NO_NETWORK = "无网络连接，请检查网络设置。";
 	protected static final String FAILED_GETDATA_HTTP = "请求异常。";
 	protected static final String FAILED_GETDATA_DATAPARSE = "数据异常。";
