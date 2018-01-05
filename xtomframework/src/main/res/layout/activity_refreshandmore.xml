@@ -1,0 +1,24 @@
+<xtom.frame.test.RefreshAndLoadmoreLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#987654" >
+
+    <xtom.frame.view.XtomListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp" />
+
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#345678"
+        android:text="Very Good!!!"
+        android:textSize="30sp" >
+    </TextView>
+    -->
+
+</xtom.frame.test.RefreshAndLoadmoreLayout>
